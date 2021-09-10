@@ -1,0 +1,94 @@
+:root {
+    /* --header-bg-color: rgb(144, 144, 214);
+    --section-bg-color: rgb(152, 182, 146);
+    --article-bg-color: rgb(184, 179, 155);
+    --border-main-color: rgb(15, 83, 30);
+    --border-color: rgb(15, 83, 30);
+    --font-main-color: rgb(15, 83, 30); */
+  }
+body {
+    background-color : var(--article-bg-color);
+    width: 100vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: var(--border-main-color);
+}
+a:hover {
+    color: var(--section-bg-color);
+}
+li {
+    list-style-type : none;
+}
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+h2 {
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+h3 {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+/* --------- HEADER -------------------------- */
+header {
+    background-color : var(--header-bg-color);
+    border: solid 1px var(--border-main-color);
+}
+#header_banner {
+    width: 100%;
+    padding: 1rem;
+}
+.link_active {
+    color: var(--article-bg-color);
+}
+header a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* --------- FOOTER -------------------------- */
+footer {
+    background-color : var(--header-bg-color);
+    border: solid 1px var(--border-main-color);
+}
+footer a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footer_logo {
+    width: 25%;
+}
+.container {
+    background-color : var(--header-bg-color);
+    border: solid 1px var(--border-main-color);
+}
+/* - - - - - - - - - - - - - - - - - - - - - - - - */
+section {
+    background-color : var(--section-bg-color);
+    border: solid 1px var(--border-main-color);
+    padding: 1rem;
+}
+.section_header {
+    background-color : var(--header-bg-color);
+    border: solid 1px var(--border-color);
+}
+article {
+    background-color : var(--article-bg-color);
+    border: solid 1px var(--border-main-color);
+    padding: 2rem 0;
+    margin-top: 1rem;
+}
+.button_link {
+    border: solid 1px var(--border-main-color);
+    background-color : var(--header-bg-color);
+    text-align: center;
+}
+/* - - - - - - - - - - - - - - - - - - - - - - - - */
